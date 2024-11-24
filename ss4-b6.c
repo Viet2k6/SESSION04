@@ -3,7 +3,7 @@ int main(){
 	float chi_so_moi , chi_so_cu , so_dien , tien_dien; 
 	printf ("Moi nhap vao chi so dien cu: ");
 	scanf("%f",&chi_so_cu);
-		printf ("Moi nhap vao chi so dien moi: ");
+	printf ("Moi nhap vao chi so dien moi: ");
 	scanf("%f",&chi_so_moi);
 	so_dien = chi_so_moi - chi_so_cu ;
 	 if (chi_so_cu>chi_so_moi){
@@ -23,7 +23,6 @@ int main(){
  }else{
  	tien_dien=so_dien*30.000;
  	printf("Tien dien trong thang la: %.3f VND",tien_dien);
- 
  }
 
     return 0;
