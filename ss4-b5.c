@@ -5,10 +5,10 @@ int main(){
 	printf("Moi nhap so nguyen thu nhat: ");
 	scanf("%d", &firstNumber);
 	
-    	printf("Moi nhap so nguyen thu hai: ");
+    printf("Moi nhap so nguyen thu hai: ");
 	scanf("%d", &secondNumber);
 	
-		printf("Moi nhap so nguyen thu ba: ");
+	printf("Moi nhap so nguyen thu ba: ");
 	scanf("%d", &thirdNumber);
 	
 	if (thirdNumber>firstNumber && thirdNumber<secondNumber || thirdNumber<firstNumber && thirdNumber>secondNumber ){
